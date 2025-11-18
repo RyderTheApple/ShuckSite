@@ -8,7 +8,7 @@ const audio = document.createElement('audio');
 const shucksimg = shucks.style;
 shucks.setAttribute('id', "shuckygif");
 audio.setAttribute('id','shuckysound');
-shucks.setAttribute('src','https://i.redd.it/wo0o22rsr9hf1.gif');
+shucks.setAttribute('src','https://github.com/RyderTheApple/ShuckSite/blob/main/shuckscribe.gif?raw=true');
 shucksimg.position ='fixed';
 shucksimg.width ='1000px';
 shucksimg.bottom ='1px';

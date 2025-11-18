@@ -1,8 +1,8 @@
 (function(){
+
 const oldImg = document.getElementById("shuckygif");
 const oldAudio = document.getElementById("shuckysound");
-if (oldImg) {oldImg.remove();}
-if (oldAudio) {oldAudio.remove();}
+if(!oldImg){
 const shucks = document.createElement('img');
 const audio = document.createElement('audio');
 const shucksimg = shucks.style;
@@ -23,6 +23,8 @@ setTimeout(()=>{
 }, 3480);
 setTimeout(()=>{
     audio.remove();
+    window.location.reload();
 },4000);
 });
+}
 })();

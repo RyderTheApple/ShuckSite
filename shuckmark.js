@@ -1,6 +1,13 @@
+(function(){
+const oldImg = document.getElementById("shuckygif");
+const oldAudio = document.getElementById("shuckysound");
+if (oldImg) {oldImg.remove();}
+if (oldAudio) {oldAudio.remove();}
 const shucks = document.createElement('img');
 const audio = document.createElement('audio');
 const shucksimg = shucks.style;
+shucks.setAttribute('id', "shuckygif");
+audio.setAttribute('id','shuckysound');
 shucks.setAttribute('src','https://i.redd.it/wo0o22rsr9hf1.gif');
 shucksimg.position ='fixed';
 shucksimg.width ='1000px';
@@ -18,3 +25,4 @@ setTimeout(()=>{
     audio.remove();
 },4000);
 });
+})();

@@ -24,8 +24,7 @@ setTimeout(()=>{
 }, 3480);
 setTimeout(()=>{
     audio.remove();
-    alert('works');
-    window.location.assign='https://www.youtube.com/@That0neZer0'; /* Or use window.location.reload()*/
+    window.location.reload();
 },4000);
 });
 }
